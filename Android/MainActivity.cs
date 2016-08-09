@@ -5,13 +5,18 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Resources.Class;
 
 namespace Android
 {
     [Activity(Label = "Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+
+        public Button BtnSlider
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnSlider); }
+        }
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -22,9 +27,16 @@ namespace Android
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            BtnSlider.Click += BtnSlider_Click;
+        }
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+        private void BtnSlider_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(Slider));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
+
         }
     }
 }

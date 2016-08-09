@@ -3,9 +3,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:id="@+id/BtnSlider"
+    <TextView
+        android:text="LEFT TO RIGHT"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Slider" />
+        android:id="@+id/textView1" />
 </LinearLayout>
