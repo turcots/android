@@ -97,23 +97,29 @@ namespace Android
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060003
+			public const int BtnAlertDialog = 2131099651;
+			
+			// aapt resource value: 0x7f060002
+			public const int BtnPopup = 2131099650;
+			
 			// aapt resource value: 0x7f060001
 			public const int BtnSlider = 2131099649;
 			
-			// aapt resource value: 0x7f060003
-			public const int bottomtotop = 2131099651;
+			// aapt resource value: 0x7f060005
+			public const int bottomtotop = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int lefttoright = 2131099654;
 			
 			// aapt resource value: 0x7f060004
-			public const int lefttoright = 2131099652;
-			
-			// aapt resource value: 0x7f060002
-			public const int righttoleft = 2131099650;
+			public const int righttoleft = 2131099652;
 			
 			// aapt resource value: 0x7f060000
 			public const int textView1 = 2131099648;
 			
-			// aapt resource value: 0x7f060005
-			public const int toptobottom = 2131099653;
+			// aapt resource value: 0x7f060007
+			public const int toptobottom = 2131099655;
 			
 			static Id()
 			{
@@ -138,13 +144,19 @@ namespace Android
 			public const int Main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int RighttoLeft = 2130903043;
+			public const int Popup = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Slider = 2130903044;
+			public const int PopupXml = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Toptobottom = 2130903045;
+			public const int RighttoLeft = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Slider = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Toptobottom = 2130903047;
 			
 			static Layout()
 			{
@@ -159,8 +171,11 @@ namespace Android
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int ApplicationName = 2131034114;
+			
 			// aapt resource value: 0x7f050001
-			public const int ApplicationName = 2131034113;
+			public const int Popup = 2131034113;
 			
 			// aapt resource value: 0x7f050000
 			public const int Slider = 2131034112;
