@@ -70,6 +70,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Class\bottomtotop.cs" />
     <Compile Include="Resources\Class\BottomToTopActivity.cs" />
+    <Compile Include="Resources\Class\Flashlight.cs" />
     <Compile Include="Resources\Class\LeftToRightActivity.cs" />
     <Compile Include="Resources\Class\Popup.cs" />
     <Compile Include="Resources\Class\RighttoLeftActivity.cs" />
@@ -91,6 +92,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Popup.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Flashlight.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

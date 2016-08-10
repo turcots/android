@@ -2,5 +2,6 @@
 <resources>
   <string name="Slider">Slider</string>
   <string name="Popup">Popup</string>
+  <string name="Flashlight">Flaslight</string>
   <string name="ApplicationName">Android</string>
 </resources>

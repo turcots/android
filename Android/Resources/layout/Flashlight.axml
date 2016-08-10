@@ -4,19 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <Button
-        android:id="@+id/BtnSlider"
+        android:id="@+id/BtnOff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Slider" />
+        android:text="Off" />
     <Button
-        android:id="@+id/BtnPopup"
+        android:id="@+id/BtnOn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Popup" />
-   <Button
-       android:id="@+id/BtnFlashlight"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="@string/Flashlight" />
-
+        android:text="On" />
 </LinearLayout>

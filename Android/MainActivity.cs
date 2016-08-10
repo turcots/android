@@ -21,7 +21,12 @@ namespace Android
         {
             get { return FindViewById<Button>(Resource.Id.BtnPopup); }
         }
-        
+
+        public Button BtnFlashlight
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnFlashlight); }
+        }
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -33,6 +38,15 @@ namespace Android
             // and attach an event to it
             BtnSlider.Click += BtnSlider_Click;
             BtnPopup.Click += BtnPopup_Click;
+            BtnFlashlight.Click += BtnFlashlight_Click;
+        }
+
+        private void BtnFlashlight_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(Flashlight));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnPopup_Click(object sender, EventArgs e)
