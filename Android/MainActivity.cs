@@ -35,6 +35,12 @@ namespace AndroidApp
             get { return FindViewById<Button>(Resource.Id.BtnDrawWithFinger); }
         }
 
+        public Button BtnGesture
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnGesture); }
+        }
+
+        
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -52,6 +58,15 @@ namespace AndroidApp
             BtnFlashlight.Click += BtnFlashlight_Click;
             BtnSQlite.Click += BtnSQlite_Click;
             BtnDrawWithFinger.Click += BtnDrawWithFinger_Click;
+            BtnGesture.Click += BtnGesture_Click;
+        }
+
+        private void BtnGesture_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(Gesture));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnDrawWithFinger_Click(object sender, EventArgs e)

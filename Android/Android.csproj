@@ -74,6 +74,7 @@
     <Compile Include="Resources\Class\DrawView.cs" />
     <Compile Include="Resources\Class\DrawWithFinger.cs" />
     <Compile Include="Resources\Class\Flashlight.cs" />
+    <Compile Include="Resources\Class\Gesture.cs" />
     <Compile Include="Resources\Class\LeftToRightActivity.cs" />
     <Compile Include="Resources\Class\Person.cs" />
     <Compile Include="Resources\Class\Popup.cs" />
@@ -107,6 +108,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\DrawWithFinger.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Gesture.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

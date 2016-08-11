@@ -23,10 +23,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/SQlite" />
+    <Button
+        android:id="@+id/BtnDrawWithFinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DrawWithFinger" />
   <Button
-      android:id="@+id/BtnDrawWithFinger"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/DrawWithFinger" />
-  
+     android:id="@+id/BtnGesture"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/Gesture" /> 
 </LinearLayout>
