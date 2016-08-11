@@ -8,6 +8,8 @@
   <string name="Gesture">Gesture</string>
   <string name="PlayMusiqueAudio">PlayMusiqueAudio</string>
   <string name="RecordAudio">RecordAudio</string>
+  <string name="RecordVideo">RecordVideo</string>
+
   
   <string name="ApplicationName">Android</string>
 </resources>

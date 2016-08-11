@@ -50,7 +50,10 @@ namespace AndroidApp
             get { return FindViewById<Button>(Resource.Id.BtnRecordAudio); }
         }
 
-       
+        public Button BtnRecordVideo
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnRecordVideo); }
+        }
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -72,6 +75,16 @@ namespace AndroidApp
             BtnGesture.Click += BtnGesture_Click;
             BtnPlayMusiqueAudio.Click += BtnPlayMusiqueAudio_Click;
             BtnRecordAudio.Click += BtnRecordAudio_Click;
+            BtnRecordVideo.Click += BtnRecordVideo_Click;
+        }
+
+        private void BtnRecordVideo_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(RecordVideo));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
+
         }
 
         private void BtnRecordAudio_Click(object sender, EventArgs e)

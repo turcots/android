@@ -80,6 +80,7 @@
     <Compile Include="Resources\Class\PlayMusiqueAudio.cs" />
     <Compile Include="Resources\Class\Popup.cs" />
     <Compile Include="Resources\Class\RecordAudio.cs" />
+    <Compile Include="Resources\Class\RecordVideo.cs" />
     <Compile Include="Resources\Class\RighttoLeftActivity.cs" />
     <Compile Include="Resources\Class\Slider.cs" />
     <Compile Include="Resources\Class\SQLite.cs" />
@@ -119,6 +120,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\RecordAudio.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\RecordVideo.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
