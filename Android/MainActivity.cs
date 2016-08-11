@@ -11,7 +11,6 @@ namespace AndroidApp
     [Activity(Label = "Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-
         public Button BtnSlider
         {
             get { return FindViewById<Button>(Resource.Id.BtnSlider); }
@@ -30,6 +29,12 @@ namespace AndroidApp
         {
             get { return FindViewById<Button>(Resource.Id.BtnSQlite); }
         }
+
+        public Button BtnDrawWithFinger
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnDrawWithFinger); }
+        }
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -37,12 +42,24 @@ namespace AndroidApp
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
+            InitEvents();
+        }
+
+        private void InitEvents()
+        {
             BtnSlider.Click += BtnSlider_Click;
             BtnPopup.Click += BtnPopup_Click;
             BtnFlashlight.Click += BtnFlashlight_Click;
             BtnSQlite.Click += BtnSQlite_Click;
+            BtnDrawWithFinger.Click += BtnDrawWithFinger_Click;
+        }
+
+        private void BtnDrawWithFinger_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(DrawWithFinger));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnSQlite_Click(object sender, EventArgs e)

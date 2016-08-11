@@ -23,4 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/SQlite" />
+  <Button
+      android:id="@+id/BtnDrawWithFinger"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/DrawWithFinger" />
+  
 </LinearLayout>

@@ -4,5 +4,7 @@
   <string name="Popup">Popup</string>
   <string name="Flashlight">Flashlight</string>
   <string name="SQlite">SQlite</string>
+  <string name="DrawWithFinger">DrawWithFinger</string>
+  
   <string name="ApplicationName">Android</string>
 </resources>
