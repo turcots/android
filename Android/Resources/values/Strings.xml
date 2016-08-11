@@ -6,6 +6,7 @@
   <string name="SQlite">SQlite</string>
   <string name="DrawWithFinger">DrawWithFinger</string>
   <string name="Gesture">Gesture</string>
+  <string name="PlayMusiqueAudio">PlayMusiqueAudio</string>
   
   <string name="ApplicationName">Android</string>
 </resources>

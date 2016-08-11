@@ -28,9 +28,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/DrawWithFinger" />
+    <Button
+        android:id="@+id/BtnGesture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Gesture" />
   <Button
-     android:id="@+id/BtnGesture"
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="@string/Gesture" /> 
+      android:id="@+id/BtnPlayMusiqueAudio"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/PlayMusiqueAudio" />  
 </LinearLayout>
