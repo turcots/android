@@ -9,6 +9,7 @@
   <string name="PlayMusiqueAudio">PlayMusiqueAudio</string>
   <string name="RecordAudio">RecordAudio</string>
   <string name="RecordVideo">RecordVideo</string>
+  <string name="DetectGSMSignalStrength">Detect the GSM Signal Strength</string>
 
   
   <string name="ApplicationName">Android</string>

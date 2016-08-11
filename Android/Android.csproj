@@ -71,6 +71,7 @@
     <Compile Include="Resources\Class\bottomtotop.cs" />
     <Compile Include="Resources\Class\BottomToTopActivity.cs" />
     <Compile Include="Resources\Class\Database.cs" />
+    <Compile Include="Resources\Class\DetectGSMSignalStrength.cs" />
     <Compile Include="Resources\Class\DrawView.cs" />
     <Compile Include="Resources\Class\DrawWithFinger.cs" />
     <Compile Include="Resources\Class\Flashlight.cs" />
@@ -123,6 +124,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\RecordVideo.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DetectGSMSignalStrength.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

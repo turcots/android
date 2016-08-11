@@ -43,9 +43,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/RecordAudio" />
+    <Button
+        android:id="@+id/BtnRecordVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecordVideo" />
   <Button
-      android:id="@+id/BtnRecordVideo"
+      android:id="@+id/BtnDetectGSMSignalStrength"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/RecordVideo" />  
+      android:text="@string/DetectGSMSignalStrength" />
+  
 </LinearLayout>

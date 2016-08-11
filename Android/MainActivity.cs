@@ -54,7 +54,11 @@ namespace AndroidApp
         {
             get { return FindViewById<Button>(Resource.Id.BtnRecordVideo); }
         }
-
+        public Button BtnDetectGSMSignalStrength
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnDetectGSMSignalStrength); }
+        }
+        
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -76,6 +80,15 @@ namespace AndroidApp
             BtnPlayMusiqueAudio.Click += BtnPlayMusiqueAudio_Click;
             BtnRecordAudio.Click += BtnRecordAudio_Click;
             BtnRecordVideo.Click += BtnRecordVideo_Click;
+            BtnDetectGSMSignalStrength.Click += BtnDetectGSMSignalStrength_Click;
+        }
+
+        private void BtnDetectGSMSignalStrength_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(DetectGSMSignalStrength));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnRecordVideo_Click(object sender, EventArgs e)
