@@ -48,10 +48,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/RecordVideo" />
-  <Button
-      android:id="@+id/BtnDetectGSMSignalStrength"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/DetectGSMSignalStrength" />
-  
+    <Button
+        android:id="@+id/BtnDetectGSMSignalStrength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DetectGSMSignalStrength" />
+    <Button
+       android:id="@+id/BtnCardFlip"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/CardFlip" /> 
 </LinearLayout>

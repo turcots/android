@@ -58,7 +58,12 @@ namespace AndroidApp
         {
             get { return FindViewById<Button>(Resource.Id.BtnDetectGSMSignalStrength); }
         }
-        
+
+        public Button BtnCardFlip
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnCardFlip); }
+        }
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -81,6 +86,15 @@ namespace AndroidApp
             BtnRecordAudio.Click += BtnRecordAudio_Click;
             BtnRecordVideo.Click += BtnRecordVideo_Click;
             BtnDetectGSMSignalStrength.Click += BtnDetectGSMSignalStrength_Click;
+            BtnCardFlip.Click += BtnCardFlip_Click;
+        }
+
+        private void BtnCardFlip_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(CardFlip));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnDetectGSMSignalStrength_Click(object sender, EventArgs e)
