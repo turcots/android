@@ -44,7 +44,13 @@ namespace AndroidApp
         {
             get { return FindViewById<Button>(Resource.Id.BtnPlayMusiqueAudio); }
         }
-        
+
+        public Button BtnRecordAudio
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnRecordAudio); }
+        }
+
+       
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -65,6 +71,15 @@ namespace AndroidApp
             BtnDrawWithFinger.Click += BtnDrawWithFinger_Click;
             BtnGesture.Click += BtnGesture_Click;
             BtnPlayMusiqueAudio.Click += BtnPlayMusiqueAudio_Click;
+            BtnRecordAudio.Click += BtnRecordAudio_Click;
+        }
+
+        private void BtnRecordAudio_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(RecordAudio));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnPlayMusiqueAudio_Click(object sender, EventArgs e)

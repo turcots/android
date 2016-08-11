@@ -37,5 +37,10 @@
       android:id="@+id/BtnPlayMusiqueAudio"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/PlayMusiqueAudio" />  
+      android:text="@string/PlayMusiqueAudio" />
+  <Button
+    android:id="@+id/BtnRecordAudio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/RecordAudio" />
 </LinearLayout>
