@@ -1,13 +1,12 @@
 ﻿using System;
 using Android.App;
 using Android.Content;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Resources.Class;
+using AndroidApp.Resources.Class;
+using Android;
 
-namespace Android
+namespace AndroidApp
 {
     [Activity(Label = "Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
@@ -27,6 +26,10 @@ namespace Android
             get { return FindViewById<Button>(Resource.Id.BtnFlashlight); }
         }
 
+        public Button BtnSQlite
+        {
+            get { return FindViewById<Button>(Resource.Id.BtnSQlite); }
+        }
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -39,6 +42,15 @@ namespace Android
             BtnSlider.Click += BtnSlider_Click;
             BtnPopup.Click += BtnPopup_Click;
             BtnFlashlight.Click += BtnFlashlight_Click;
+            BtnSQlite.Click += BtnSQlite_Click;
+        }
+
+        private void BtnSQlite_Click(object sender, EventArgs e)
+        {
+            Intent intent;
+            intent = new Intent(this, typeof(SQliteUser));
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.@Side_in_right, Resource.Animation.@Side_out_left);
         }
 
         private void BtnFlashlight_Click(object sender, EventArgs e)

@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Android</RootNamespace>
-    <AssemblyName>Android</AssemblyName>
+    <RootNamespace>AndroidApp</RootNamespace>
+    <AssemblyName>AndroidApp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -70,11 +70,15 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Class\bottomtotop.cs" />
     <Compile Include="Resources\Class\BottomToTopActivity.cs" />
+    <Compile Include="Resources\Class\Database.cs" />
     <Compile Include="Resources\Class\Flashlight.cs" />
     <Compile Include="Resources\Class\LeftToRightActivity.cs" />
+    <Compile Include="Resources\Class\Person.cs" />
     <Compile Include="Resources\Class\Popup.cs" />
     <Compile Include="Resources\Class\RighttoLeftActivity.cs" />
     <Compile Include="Resources\Class\Slider.cs" />
+    <Compile Include="Resources\Class\SQLite.cs" />
+    <Compile Include="Resources\Class\SQliteUser.cs" />
     <Compile Include="Resources\Class\ToptoBottomActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,6 +99,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Flashlight.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SQliteUser.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

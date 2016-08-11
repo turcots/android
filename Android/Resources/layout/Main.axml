@@ -13,10 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Popup" />
-   <Button
-       android:id="@+id/BtnFlashlight"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="@string/Flashlight" />
-
+    <Button
+        android:id="@+id/BtnFlashlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Flashlight" />
+    <Button
+        android:id="@+id/BtnSQlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SQlite" />
 </LinearLayout>

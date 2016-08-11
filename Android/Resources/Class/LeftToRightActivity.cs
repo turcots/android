@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Android
+namespace AndroidApp.Resources.Class
 {
     [Activity(Label = "LeftToRightActivity")]
     public class LeftToRightActivity : Activity

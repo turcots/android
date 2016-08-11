@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AndroidApp.Resource", IsApplication=true)]
 
-namespace Android
+namespace AndroidApp
 {
 	
 	
@@ -1480,8 +1480,8 @@ namespace Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0063
-			public const int BtnAlertDialog = 2131427427;
+			// aapt resource value: 0x7f0b0064
+			public const int BtnAlertDialog = 2131427428;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int BtnFlashlight = 2131427413;
@@ -1495,11 +1495,14 @@ namespace Android
 			// aapt resource value: 0x7f0b0054
 			public const int BtnPopup = 2131427412;
 			
+			// aapt resource value: 0x7f0b0056
+			public const int BtnSQlite = 2131427414;
+			
 			// aapt resource value: 0x7f0b0053
 			public const int BtnSlider = 2131427411;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int action0 = 2131427414;
+			// aapt resource value: 0x7f0b0057
+			public const int action0 = 2131427415;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int action_bar = 2131427393;
@@ -1525,8 +1528,8 @@ namespace Android
 			// aapt resource value: 0x7f0b0042
 			public const int action_context_bar = 2131427394;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int action_divider = 2131427418;
+			// aapt resource value: 0x7f0b005b
+			public const int action_divider = 2131427419;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1555,20 +1558,29 @@ namespace Android
 			// aapt resource value: 0x7f0b0019
 			public const int beginning = 2131427353;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int bottomtotop = 2131427429;
+			// aapt resource value: 0x7f0b0066
+			public const int bottomtotop = 2131427430;
+			
+			// aapt resource value: 0x7f0b006f
+			public const int btnAjouter = 2131427439;
+			
+			// aapt resource value: 0x7f0b0070
+			public const int btnModifier = 2131427440;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int btnSupprimer = 2131427441;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int buttonPanel = 2131427371;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int cancel_action = 2131427415;
+			// aapt resource value: 0x7f0b0058
+			public const int cancel_action = 2131427416;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int checkbox = 2131427385;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int chronometer = 2131427421;
+			// aapt resource value: 0x7f0b005e
+			public const int chronometer = 2131427422;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int collapseActionView = 2131427357;
@@ -1597,8 +1609,8 @@ namespace Android
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int end_padder = 2131427426;
+			// aapt resource value: 0x7f0b0063
+			public const int end_padder = 2131427427;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int expand_activities_button = 2131427365;
@@ -1615,23 +1627,38 @@ namespace Android
 			// aapt resource value: 0x7f0b0029
 			public const int icon = 2131427369;
 			
+			// aapt resource value: 0x7f0b006a
+			public const int identifiantPerson = 2131427434;
+			
 			// aapt resource value: 0x7f0b001e
 			public const int ifRoom = 2131427358;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int image = 2131427366;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int info = 2131427425;
+			// aapt resource value: 0x7f0b0062
+			public const int info = 2131427426;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int lefttoright = 2131427430;
+			// aapt resource value: 0x7f0b0072
+			public const int lblCount = 2131427442;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int line1 = 2131427419;
+			// aapt resource value: 0x7f0b0069
+			public const int lblIdentifiantPersonne = 2131427433;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int line3 = 2131427423;
+			// aapt resource value: 0x7f0b006b
+			public const int lblNom = 2131427435;
+			
+			// aapt resource value: 0x7f0b006d
+			public const int lblPrenom = 2131427437;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int lefttoright = 2131427431;
+			
+			// aapt resource value: 0x7f0b005c
+			public const int line1 = 2131427420;
+			
+			// aapt resource value: 0x7f0b0060
+			public const int line3 = 2131427424;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1639,8 +1666,11 @@ namespace Android
 			// aapt resource value: 0x7f0b0028
 			public const int list_item = 2131427368;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int media_actions = 2131427417;
+			// aapt resource value: 0x7f0b0073
+			public const int lvPerson = 2131427443;
+			
+			// aapt resource value: 0x7f0b005a
+			public const int media_actions = 2131427418;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -1669,8 +1699,8 @@ namespace Android
 			// aapt resource value: 0x7f0b003b
 			public const int radio = 2131427387;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int righttoleft = 2131427428;
+			// aapt resource value: 0x7f0b0065
+			public const int righttoleft = 2131427429;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
@@ -1744,8 +1774,8 @@ namespace Android
 			// aapt resource value: 0x7f0b0018
 			public const int src_over = 2131427352;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int status_bar_latest_event_content = 2131427416;
+			// aapt resource value: 0x7f0b0059
+			public const int status_bar_latest_event_content = 2131427417;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int submit_area = 2131427404;
@@ -1753,11 +1783,11 @@ namespace Android
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int text = 2131427424;
+			// aapt resource value: 0x7f0b0061
+			public const int text = 2131427425;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int text2 = 2131427422;
+			// aapt resource value: 0x7f0b005f
+			public const int text2 = 2131427423;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
@@ -1765,8 +1795,8 @@ namespace Android
 			// aapt resource value: 0x7f0b0052
 			public const int textView1 = 2131427410;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int time = 2131427420;
+			// aapt resource value: 0x7f0b005d
+			public const int time = 2131427421;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int title = 2131427370;
@@ -1777,8 +1807,14 @@ namespace Android
 			// aapt resource value: 0x7f0b002e
 			public const int topPanel = 2131427374;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int toptobottom = 2131427431;
+			// aapt resource value: 0x7f0b0068
+			public const int toptobottom = 2131427432;
+			
+			// aapt resource value: 0x7f0b006c
+			public const int txtNom = 2131427436;
+			
+			// aapt resource value: 0x7f0b006e
+			public const int txtPrenom = 2131427438;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int up = 2131427336;
@@ -1966,10 +2002,13 @@ namespace Android
 			public const int Slider = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int support_simple_spinner_dropdown_item = 2130903084;
+			public const int SQliteUser = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int Toptobottom = 2130903085;
+			public const int support_simple_spinner_dropdown_item = 2130903085;
+			
+			// aapt resource value: 0x7f03002e
+			public const int Toptobottom = 2130903086;
 			
 			static Layout()
 			{
@@ -1984,14 +2023,17 @@ namespace Android
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050017
-			public const int ApplicationName = 2131034135;
+			// aapt resource value: 0x7f050018
+			public const int ApplicationName = 2131034136;
 			
 			// aapt resource value: 0x7f050016
 			public const int Flashlight = 2131034134;
 			
 			// aapt resource value: 0x7f050015
 			public const int Popup = 2131034133;
+			
+			// aapt resource value: 0x7f050017
+			public const int SQlite = 2131034135;
 			
 			// aapt resource value: 0x7f050014
 			public const int Slider = 2131034132;

@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Android.Resources.Class
+namespace AndroidApp.Resources.Class
 {
     [Activity(Label = "Slider")]
     class Slider : Activity

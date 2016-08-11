@@ -2,7 +2,7 @@
 using Android.App;
 using Android.OS;
 
-namespace Android
+namespace AndroidApp.Resources.Class
 {
     [Activity(Label = "bottomtotop")]
     public class bottomtotop : Activity

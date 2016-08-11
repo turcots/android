@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V7.App;
 
-namespace Android.Resources.Class
+namespace AndroidApp.Resources.Class
 {
     [Activity(Label = "Popup")]
     class Popup : AppCompatActivity

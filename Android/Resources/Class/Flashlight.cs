@@ -9,7 +9,7 @@ using Android.Hardware;
 using Android.Hardware.Camera2;
 using Android.Support.V7.App;
 
-namespace Android.Resources.Class
+namespace AndroidApp.Resources.Class
 {
     [Activity(Label = "Flashlight")]
 
