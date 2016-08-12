@@ -11,6 +11,9 @@
   <string name="RecordVideo">RecordVideo</string>
   <string name="DetectGSMSignalStrength">Detect the GSM Signal Strength</string>
   <string name="CardFlip">Card Flip</string>
-  
+  <string name="ActionBarDrawer">Action Bar Drawer</string>
+
+  <string name="open_drawer">Open Drawer</string>
+  <string name="close_drawer">Close Drawer</string>
   <string name="ApplicationName">Android</string>
 </resources>
