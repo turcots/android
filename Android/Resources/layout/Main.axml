@@ -1,61 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <Button
-        android:id="@+id/BtnSlider"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Slider" />
-    <Button
-        android:id="@+id/BtnPopup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Popup" />
-    <Button
-        android:id="@+id/BtnFlashlight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Flashlight" />
-    <Button
-        android:id="@+id/BtnSQlite"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/SQlite" />
-    <Button
-        android:id="@+id/BtnDrawWithFinger"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/DrawWithFinger" />
-    <Button
-        android:id="@+id/BtnGesture"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Gesture" />
-    <Button
-        android:id="@+id/BtnPlayMusiqueAudio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/PlayMusiqueAudio" />
-    <Button
-        android:id="@+id/BtnRecordAudio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/RecordAudio" />
-    <Button
-        android:id="@+id/BtnRecordVideo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/RecordVideo" />
-    <Button
-        android:id="@+id/BtnDetectGSMSignalStrength"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/DetectGSMSignalStrength" />
-    <Button
-       android:id="@+id/BtnCardFlip"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="@string/CardFlip" /> 
-</LinearLayout>
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/BtnSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Slider" />
+        <Button
+            android:id="@+id/BtnPopup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Popup" />
+        <Button
+            android:id="@+id/BtnFlashlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Flashlight" />
+        <Button
+            android:id="@+id/BtnSQlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SQlite" />
+        <Button
+            android:id="@+id/BtnDrawWithFinger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DrawWithFinger" />
+        <Button
+            android:id="@+id/BtnGesture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Gesture" />
+        <Button
+            android:id="@+id/BtnPlayMusiqueAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PlayMusiqueAudio" />
+        <Button
+            android:id="@+id/BtnRecordAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RecordAudio" />
+        <Button
+            android:id="@+id/BtnRecordVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RecordVideo" />
+        <Button
+            android:id="@+id/BtnDetectGSMSignalStrength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DetectGSMSignalStrength" />
+        <Button
+            android:id="@+id/BtnCardFlip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CardFlip" />
+    </LinearLayout>
+</ScrollView>

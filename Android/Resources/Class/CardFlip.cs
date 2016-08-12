@@ -62,7 +62,6 @@ namespace AndroidApp.Resources.Class
             public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
             {
                 View frontCard = inflater.Inflate(Resource.Layout.card_front, container, false);
-                frontCard.Click += FrontCard_Click;
                 frontCard.Touch += FrontCard_Touch;
                 return frontCard;
             }
@@ -73,10 +72,6 @@ namespace AndroidApp.Resources.Class
                 parentActivity.mGestureDetector.OnTouchEvent(e.Event);
             }
 
-            private void FrontCard_Click(object sender, EventArgs e)
-            {
-
-            }
         }
 
         public class CardBackFragment : Fragment
@@ -84,7 +79,6 @@ namespace AndroidApp.Resources.Class
             public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
             {
                 View backCard = inflater.Inflate(Resource.Layout.card_back, container, false);
-                backCard.Click += BackCard_Click;
                 backCard.Touch += BackCard_Touch;
                 return backCard;
             }
@@ -95,10 +89,6 @@ namespace AndroidApp.Resources.Class
                 parentActivity.mGestureDetector.OnTouchEvent(e.Event);
             }
 
-            private void BackCard_Click(object sender, EventArgs e)
-            {
-
-            }
         }
 
         public class MyGestureListener : GestureDetector.SimpleOnGestureListener
